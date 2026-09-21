@@ -9,7 +9,7 @@ func greet(name string) string {
 func greetInternational(name string) string {
 	// ЗАДАНИЕ (день 1): дополните приветствие, чтобы в терминале появилась
 	// и "Hello", и "Привет". Подсказка: верните "Hello, " + "Привет, " + name + "!"
-	return "Hello, " + name + "!"
+	return "Hello, " + "Привет, " + name + "!"
 }
 
 func main() {
@@ -17,4 +17,5 @@ func main() {
 	fmt.Println(greet(dear))
 	fmt.Println(greetInternational(dear))
 	fmt.Printf("байтов в слове %q: %d\n", dear, len(dear))
+	fmt.Printf("%q\n", dear)
 }
